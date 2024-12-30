@@ -1,5 +1,5 @@
 [settings]
-font = JetBrainsMono 14
+font = JetBrainsMono 16
 prompt = Search
 show_icons = true
 case_sensitive = false
