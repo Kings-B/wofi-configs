@@ -1,68 +1,36 @@
-/* Default wofi style
+* {
+  font-family: monospace;
+  font-size: 16px;
+  outline: none;
+  box-shadow: none;
+}
 
 window {
-    background-color: #282828;
-    border-color: #928374;
-    border-radius: 8px;
-    border-width: 2px;
-    padding: 10px;
+    background-color: rgba(0,0,0,1);
+    border-radius: 5px;
 }
 
-entry {
-    background-color: #3c3836;
-    color: #ebdbb2;
-}
-
-listview {
-    background-color: #282828;
-}
-
-listview > entry {
-    background-color: #3c3836;
-    color: #ebdbb2;
-}
-
-listview > entry:selected {
-    background-color: #458588;
-    color: #ebdbb2;
-}
-
-*/
-
-
-
-window {
-    background-color: rgba(0,0,0,0.8);
-    border-radius: 12px;
-    /* border-width: 0px; */
-    padding: 10px;
-    /* margin: 0px; */
-    /* shadow: 0px 4px 16px rgba(0, 0, 0, 0.4); */
-    /* width: 50%;
-    height:  50px; */
-}
-
-entry {
-    background-color: transparent;
+#input {
+    background-color: rgba(0,0,0,0);
     color: white;
-    font-size: 14px;
+    border-color: rgba(0,0,0,0);
+    padding: 10px;
+}
+
+#entry {
+  padding: 5px;
+}
+
+#entry:selected {
     padding: 5px;
+    background-color: rgba(38,50,56,0.50);
+    border-radius: 5px;
 }
 
-listview {
-    background-color: rgba(0, 0, 0, 0.9);
-    border-radius: 8px;
-    border-width: 0px;
-    color: white;
+#text {
+  padding: 2px;
 }
 
-listview > entry {
-    background-color: transparent;
-    color: white;
-    padding: 10px;
-}
-
-listview > entry:selected {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: white;
+#outer-box {
+  padding: 5px;
 }
